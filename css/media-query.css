@@ -1,0 +1,124 @@
+/* xl */
+/* @media (max-width:1399px){
+    .col-xl-6{
+        width: 50%;
+    }
+} */
+/* lg */
+/* @media (max-width:1199px){
+    .col-lg-4{
+        width: 33.33%;
+    }
+} */
+/* md */
+/* @media (max-width:991px){
+    .col-lg-3{
+        width: 25%;
+    }
+} */
+/* sm */
+/* @media (max-width:767px){
+    .col-sm-6{
+        width: 50%;
+    }
+} */
+/* xs */
+/* @media (max-width:575px){
+    .col-xs-12{
+        width: 100%;
+    }
+} */
+
+@media (max-width:575px){
+    .col-xs-12{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .col-6,.col-3,.col-4{
+        padding: 0;
+    }
+    /* top-bar */
+    .top-bar{
+        display: none;
+    }
+    /* top-bar */
+    /* navbar */
+  
+    .navbar nav{
+        display: none;
+        height: 0;
+    }
+    .navbar .checked{
+        display: block;
+        font-size: 25px;
+    }
+    /* navbar */
+    /* banner */
+    .main-banner .banner-text p,
+    .main-banner .banner-nums,
+    .main-banner .arrow-icon,
+    #cause .cause-slide,
+    #cause .cause-arrow-icon
+    {
+        display: none;
+    }
+    .main-banner .banner-text .container{
+       margin: 0;
+    }
+    .main-banner .banner-text h1{
+        font-size: 48px;
+        margin-top: 0;
+    }
+    .main-banner .banner-text h4{
+        font-size: 22px;
+    }
+    .main-banner .bg-btn a{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 14px 20px;
+        font-size: 12px;
+    }
+    /* banner */
+    /* events */
+    /* events */
+    #events .events-content .events-img{
+       flex-direction: column;
+      }
+    /* features */
+    .features-content h2{
+        /* font-size: 26px; */
+        margin-top: 20px;
+    }
+    .features-details .features-img{
+        flex-direction: column;
+    }
+    .features-details .features-img img{
+        margin-bottom: 20px;
+    }
+    .features-details .features-img .features-img-text a:first-child{
+        font-size: 15px;
+    }
+    .features-details .features-img .features-img-text a:nth-child(3),
+    .features-details .features-img .features-img-text a:nth-child(4){
+        font-size: 9px;
+    }
+    .features-details .features-img .features-img-text p{
+        font-size: 12px;
+    }
+    /* features */
+    
+    /* support */
+    #support .support-img-details{
+        flex-direction: column;
+        align-items: center;
+    }
+    #support .support-img-details .support-mb{
+        margin-bottom: 20px;
+    }
+    /* support */
+    /* footer2 */
+    #footer2 {
+        padding:15px ;
+    }
+    /* footer2 */
+}
